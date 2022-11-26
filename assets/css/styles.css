@@ -314,12 +314,12 @@ img {
 
 .home__triangle-2 {
   width: 205px;
-  background-color: var(--first-color-dark);
+  background-color: var(--first-color-alt);
 }
 
 .home__triangle-3 {
   width: 305px;
-  background-color: var(--first-color);
+  background-color: var(--first-color-dark);
 }
 
 .home__img {
@@ -352,13 +352,13 @@ img {
 }
 
 .button__flex {
-  display: inline;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   column-gap: 0.5rem;
 }
 
-.button__flex:hover {
+.button__flex :hover {
   transform: translateX(0.25rem);
 }
 
@@ -390,6 +390,10 @@ img {
 }
 
 .program__img {
+  width: 50px;
+}
+
+.program__shape {
   width: 50px;
   height: 50px;
   background-color: var(--first-color-gray);
@@ -458,6 +462,10 @@ img {
   padding-bottom: 0;
 }
 
+.choose__overflow {
+  position: relative;
+}
+
 .choose__container {
   row-gap: 3rem;
 }
@@ -500,15 +508,15 @@ img {
   clip-path: polygon(0 0, 0 100%, 100% 100%);
 }
 
-.choose__traingle-1 {
+.choose__triangle-1 {
   width: 305px;
   background-color: var(--first-color);
 }
-.choose__traingle-2 {
+.choose__triangle-2 {
   width: 205px;
   background-color: var(--first-color-alt);
 }
-.choose__traingle-3 {
+.choose__triangle-3 {
   width: 105px;
   background-color: var(--first-color-dark);
 }
