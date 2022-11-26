@@ -1,7 +1,7 @@
 /*=============== SHOW MENU ===============*/
-const navMenu = document.getElementById("nav-menu"),
-  navToggle = document.getElementById("nav-toggle"),
-  navClose = document.getElementById("nav-close");
+const navMenu = document.querySelector("#nav-menu"),
+  navToggle = document.querySelector("#nav-toggle"),
+  navClose = document.querySelector("#nav-close");
 
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
@@ -23,7 +23,7 @@ if (navClose) {
 const navLink = document.querySelectorAll(".nav__link");
 
 const linkAction = () => {
-  const navMenu = document.getElementById("nav-menu");
+  const navMenu = document.querySelector("#nav-menu");
   // When we click on each nav__link, we remove the show-menu class
   navMenu.classList.remove("show-menu");
 };
