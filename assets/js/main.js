@@ -112,7 +112,7 @@ const calculateBmi = (e) => {
   } else {
     // BMI formula
     const cm = calculateCm.value / 100,
-      kg = calculateKg.value / 100,
+      kg = calculateKg.value,
       bmi = Math.round(kg / (cm * cm));
 
     // show your health status
